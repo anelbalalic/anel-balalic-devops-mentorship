@@ -16,8 +16,8 @@
 #####read the readme file   
 
 ###find . -type f -exec file {} + | grep ASCII
-#####Grep is an acronym that stands for Global Regular Expression Print. It's usage as a command line tool is to search for a pattern or string of text in a given file. The syntax #####of using grep calls for the pattern or string your searching for and the filename you'd like to search in
-#####The other helpful options to use here would be, type -f to find all regular files, and -exec file for finding all executable files
+#####Grep is an acronym that stands for Global Regular Expression Print. It's usage as a command line tool is to search for a pattern or string of text in a given #####file. The syntax of using grep calls for the pattern or string your searching for and the filename you'd like to search in
+#####he other helpful options to use here would be, type -f to find all regular files, and -exec file for finding all executable files
 
 ###cat ./-
 #####read the file that containing ASCII text     
@@ -41,7 +41,7 @@
 #####using sort to sort text inside the data.txt, the file contains a lot of repeating statements so we will use the uniq command to print the not repeating statement
 
 ###strings data.txt | grep =
-####use strings command which prints character sequences that are at least 4 characters long, and to get to the exact location of the password, we are going to use grep
+####use strings command which prints character sequences that are at least 4 characters long, and to get to the exact location of the password, we are going to use ####grep
 
 ###cat data.txt | base64 --decode
 ####reading and decoding base64  
